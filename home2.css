@@ -1,0 +1,86 @@
+/* Reset default browser styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color for the entire page */
+body {
+  background-color: #fafafa;
+}
+
+/* Style the heading */
+h1 {
+  color: #333;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* Style the form container */
+form {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  margin: 2rem auto;
+  max-width: 600px;
+  padding: 2rem;
+}
+
+/* Style the form labels */
+label {
+  color: #555;
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Style the form inputs */
+input[type="text"],
+input[type="tel"],
+select {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+/* Style the form select options */
+select option {
+  font-size: 1.2rem;
+}
+
+/* Style the form submit button */
+input[type="submit"] {
+  background-color: #ff3366;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease;
+}
+
+/* Change the submit button color on hover */
+input[type="submit"]:hover {
+  background-color: #d1194d;
+}
+
+/* Style the form input placeholders */
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #aaa;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #aaa;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #aaa;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #aaa;
+}
